@@ -12,7 +12,7 @@ import concurrent.futures
 import subprocess
 import time
 
-# Настройки GitHub (замените на свои данные)
+# Настройки GitHub
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")  # Берётся из переменной окружения
 REPO = "1NFERR/PawTotems"         # Например, "myrp/myrp.github.io"
 BRANCH = "main"                          # Ветка репозитория
