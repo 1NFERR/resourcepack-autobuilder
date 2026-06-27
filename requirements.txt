@@ -1,0 +1,7 @@
+# resourcepack-autobuilder — внешние зависимости
+# Стандартная библиотека (json, os, shutil, subprocess, hashlib, base64,
+# concurrent.futures, time) отдельной установки не требует.
+# Публикация в Git выполняется через subprocess + системный git (библиотека не нужна).
+
+requests
+Pillow
